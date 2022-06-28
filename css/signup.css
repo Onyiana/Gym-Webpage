@@ -1,0 +1,145 @@
+/* resetting property that is removing the default style given to it by the computer */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    position: relative;
+}
+
+/* this was used to style the homesection by adding image add a gradient to the homesection */
+#Homesection{
+    background-image:linear-gradient(rgba(0, 12, 53, 0.7), rgba(0, 12, 53, 0.9)) ,url(/Images/Kettlebell-group-training2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+/* this was used to make the entire content move side by side */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5rem;
+    background-color: rgba(128, 128, 128, 0.6);
+    width: 100%;
+}
+/* this was used to make the links to move side by side */
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+/* the was used to make the navlinks slowly move when clicked on */
+html {
+    scroll-behavior: smooth;
+}
+
+/* this was used to remove the line on links */
+.navlinks a{
+    color:#fff;
+}
+/* this was used to remove decoration on the text */
+a{
+    text-decoration: none;
+}
+
+.active{
+    color: #FF4B2E !important;
+}
+
+/* this was used to make the navlink list to take a different when you hover or move around it */
+.navlinks a:hover{
+    /* background-color:#FF4B2E ;
+    padding: 10px 3px;  */
+    border-bottom: 3px solid #FF4B2E;
+}
+
+.Gym{
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+    color: #fff;
+    text-align: left;
+    background-color:#646464e8 ;
+    padding: 2rem;  
+}
+   
+.Gym h2, h3{
+    margin: 2rem;
+    font-size: 20px;
+    text-align: center;
+}
+.signUp{
+    margin-bottom: 3rem;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select{
+    width: 500px;
+    height: 2.5rem;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    margin: 8px 0;
+}
+
+.sendBtn a{
+    color:#FFf;
+    background-color: #FF4B2E;
+    box-shadow: 5px 5px 20px rgb(58, 58, 58);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    background-color: rgb(31, 31, 31);
+    height: 50vh;
+    text-align: center;
+    margin-top: 5rem;
+    color: #fff;
+    padding: 3rem 0 1.5rem 0;
+}
+
+.footerTopText p{
+    margin-top: 10px;
+}
+
+.footerBottomText{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.footerBottomText a{
+    color: rgb(206, 206, 206);
+}
+
+.bottomNavbar{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.bottomNavbar a{
+    color: #fff;
+}
+
+.ri-phone-line{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
