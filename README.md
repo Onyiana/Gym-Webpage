@@ -1,2 +1,2 @@
 Website
-https://trianing-studio-com.netlify.app
+https://training-studio-com.netlify.app
