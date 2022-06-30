@@ -433,11 +433,11 @@ textarea:focus{
     }
 
     input[type="email"], textarea{
-        width: 350px;
+        width: 330px;
     }
 
    input[type="text"]{
-    width: 350px;
+    width: 330px;
    }
 
    .footerTopText h3{
@@ -459,6 +459,7 @@ textarea:focus{
 #bottomP{
   font-size: 10px;
 }
+
 }
 
 @media screen and (max-width:375px){
@@ -469,18 +470,6 @@ textarea:focus{
 
     input[type="text"]{
         width: 240px;
-    }
-
-}
-
-@media screen and (max-width:414px){
-
-    input[type="email"], textarea{
-        width: 270px;
-    }
-
-    input[type="text"]{
-        width: 270px;
     }
 
 }

@@ -147,7 +147,7 @@ input[type="text"], input[type="email"], input[type="number"], select{
 
     .Gym{
         background-color:#646464e8 ;
-        width: 60%;
+        width: 70%;
     }
     input[type="email"]{
         width: 350px;
@@ -168,50 +168,46 @@ input[type="text"], input[type="email"], input[type="number"], select{
 }
 
 @media screen and (max-width:768px) {
-    
-    #navbar h1{
-        font-size: 1.5rem;
-    }
 
     input[type="email"]{
-        width: 340px;
+        width: 270px;
     }
 
     input[type="text"]{
-        width: 340px;
+        width: 270px;
     }
 
     input[type="number"]{
-        width: 340px;
+        width: 270px;
     }
 
     #State{
-        width: 340px;
+        width: 270px;
     }
 
     #footer{
         background-color: rgb(31, 31, 31);
-        height: 60vh;
+        height: 50vh;
     }
     
     
    .footerTopText h3{
     font-size: 10px;
-}
+    }
 
-.footerTopText p{
-    font-size: 8px;
-}
+    .footerTopText p{
+        font-size: 8px;
+    }
 
-.footerBottomText a{
-    font-size: 1.3rem;
-}
+    .footerBottomText a{
+        font-size: 1.3rem;
+    }
 
-.bottomNavbar{
+    .bottomNavbar{
+        font-size: 10px;
+    }
+
+    #bottomP{
     font-size: 10px;
-}
-
-#bottomP{
-  font-size: 10px;
-}
+    }
 }
