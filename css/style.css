@@ -433,12 +433,32 @@ textarea:focus{
     }
 
     input[type="email"], textarea{
-        width: 400px;
+        width: 350px;
     }
 
    input[type="text"]{
-    width: 400px;
+    width: 350px;
    }
+
+   .footerTopText h3{
+    font-size: 10px;
+}
+
+.footerTopText p{
+    font-size: 8px;
+}
+
+.footerBottomText a{
+    font-size: 1.3rem;
+}
+
+.bottomNavbar{
+    font-size: 10px;
+}
+
+#bottomP{
+  font-size: 10px;
+}
 }
 
 @media screen and (max-width:375px){
