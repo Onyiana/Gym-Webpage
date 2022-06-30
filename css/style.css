@@ -400,12 +400,6 @@ textarea:focus{
     #bottomP{
       font-size: 12px;
     }
-   
-    @media screen and (max-width:768) {
-        .section{
-            display: grid;
-        }
-    }
 
   .navlinks{
         flex-direction: column;
@@ -425,4 +419,48 @@ textarea:focus{
     }
 
 }
-    
+
+@media screen and (max-width:768px) {
+
+    .yourName{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section, .section2{
+        display: grid;
+    }
+
+    input[type="email"], textarea{
+        width: 400px;
+    }
+
+   input[type="text"]{
+    width: 400px;
+   }
+}
+
+@media screen and (max-width:375px){
+
+    input[type="email"], textarea{
+        width: 240px;
+    }
+
+    input[type="text"]{
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width:414px){
+
+    input[type="email"], textarea{
+        width: 270px;
+    }
+
+    input[type="text"]{
+        width: 270px;
+    }
+
+}

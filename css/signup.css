@@ -143,3 +143,51 @@ input[type="text"], input[type="email"], input[type="number"], select{
     font-size: 1.5rem;
 }
 
+@media screen and (max-width:992px){
+
+    input[type="email"]{
+        width: 350px;
+    }
+
+    input[type="text"]{
+        width: 350px;
+    }
+
+    input[type="number"]{
+        width: 350px;
+    }
+
+    #State{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    
+    #navbar h1{
+        font-size: 1.5rem;
+    }
+
+    input[type="email"]{
+        width: 260px;
+    }
+
+    input[type="text"]{
+        width: 260px;
+    }
+
+    input[type="number"]{
+        width: 260px;
+    }
+
+    #State{
+        width: 260px;
+    }
+
+    #footer{
+        background-color: rgb(31, 31, 31);
+        height: 60vh;
+    }
+
+}
