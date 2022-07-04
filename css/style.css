@@ -422,6 +422,10 @@ textarea:focus{
 
 @media screen and (max-width:768px) {
 
+    .innertext{
+        padding: 5px 8px;
+    }
+
     .yourName{
         display: grid;
         margin-left: auto;
@@ -459,17 +463,5 @@ textarea:focus{
 #bottomP{
   font-size: 10px;
 }
-
-}
-
-@media screen and (max-width:375px){
-
-    input[type="email"], textarea{
-        width: 240px;
-    }
-
-    input[type="text"]{
-        width: 240px;
-    }
 
 }
