@@ -317,12 +317,3 @@ textarea:focus{
 .bottomNavbar a{
     color: #fff;
 }
-
-.ri-phone-line{
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-.ri-menu-line, .ri-close-circle-line{
-    display: none;
-}
