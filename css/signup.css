@@ -36,8 +36,9 @@ html, body{
     gap: 60px;
 }
 /* the was used to make the navlinks slowly move when clicked on */
-html {
+html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* this was used to remove the line on links */
@@ -136,9 +137,4 @@ input[type="text"], input[type="email"], input[type="number"], select{
 
 .bottomNavbar a{
     color: #fff;
-}
-
-.ri-phone-line{
-    color: #fff;
-    font-size: 1.5rem;
 }
