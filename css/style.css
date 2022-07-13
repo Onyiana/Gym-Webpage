@@ -448,12 +448,12 @@ textarea:focus{
    }
 
    input[type="email"]{
-    width: 100%;
+    width: 103%;
     margin-left: 0;
     }
  
     textarea{
-        width: 100%;
+        width: 103%;
         margin-left: 0;
     }
 
@@ -483,5 +483,9 @@ textarea:focus{
     #bottomP{
         font-size: 12px;
         padding: 25px;
+    }
+
+    .ri-phone-fill{
+        font-size: 18px;
     }
 }
