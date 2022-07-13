@@ -181,7 +181,7 @@ margin-top: 7rem;
     border: none;
     padding: 15px 5rem;
     font-size: medium;
-    }
+}
     
 #schedule button:hover{
     background-color: #c51a00;
@@ -375,7 +375,9 @@ textarea:focus{
     }
 
     .footerTopText p{
+        width: 90%;
         font-size: 12px;
+        margin: auto;
     }
     
     .footerBottomText a{
@@ -383,6 +385,100 @@ textarea:focus{
     }
     
     .bottomNavbar a{
-       font-size: 15px;
+       font-size: 12px;
+    }
+}
+
+@media screen and (max-width:375px){
+  .innertext{
+    width: 100%;
+  }
+
+  .innertext h3{
+    font-size: 15px;
+  }
+
+  .innertext h1{
+    font-size: 26px;
+  }
+
+  .innertext a{
+    padding: 8px 10px;
+   }
+
+   .programText p{
+    width: 80%;
+   }
+
+   .basicfitness{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+
+   #classFitness p{
+    width: 100%;
+    padding: 0 1rem;
+    }
+
+   .fitness{
+    flex-direction: column;
+    margin: 1rem;
+   }
+
+   .minutes{
+    margin-top: 1rem;
+   }
+
+   .fitness button{
+    margin-left: 0.5rem;
+    }
+
+   #schedule button{
+    padding: 5px 1rem;
+    margin: 1rem;
+   }
+
+   .bodyText p{
+    width: 85%;
+   }
+
+   input[type="text"]{
+    width: 230px;
+   }
+
+   input[type="email"]{
+    width: 100%;
+    margin-left: 0;
+    }
+ 
+    textarea{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .message label{
+        margin-left: 0;
+    }
+
+    .sendBtn a{
+        width: 100%;
+        padding: 8px 10px;
+    }
+
+    .footerTopText h3{
+        font-size: 15px;
+    }
+
+    .footerTopText p{
+    
+    }
+
+    .footerBottomText a{
+        font-size: 1.5rem;
+    }
+
+    #bottomP{
+        font-size: 12px;
     }
 }
