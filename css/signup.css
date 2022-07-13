@@ -82,7 +82,7 @@ a{
 }
 
 input[type="text"], input[type="email"], input[type="number"], select{
-    width: 500px;
+    width: 480px;
     height: 2.5rem;
     border-radius: 3px;
     padding-left: 10px;
@@ -146,7 +146,7 @@ input[type="text"], input[type="email"], input[type="number"], select{
     }
 
     #footer{
-        height: 60vh;
+        height: 54vh;
     }
 }
 
@@ -192,15 +192,11 @@ input[type="text"], input[type="email"], input[type="number"], select{
 @media screen and (max-width:375px) {
    .Gym{
         width: 80%;
-        padding: 25px 1.5rem;
+        padding: 25px 1.3rem;
     }
 
     input[type="text"], input[type="email"], input[type="number"], select{
         width: 250px;
-    }
-
-    #footer{
-        height: 75vh;
     }
 
     .footerTopText h3{
