@@ -62,6 +62,7 @@ a{
 /* this was used to make the navlink list to take a different when you hover or move around it */
 .navlinks a:hover{
    border-bottom: 3px solid #FF4B2E;
+   transition: .5s;
 }
 
 /* this is used to give style to the h1 tag */
@@ -441,7 +442,7 @@ textarea:focus{
     #navbar {
         width: 100%;
         padding: 10px 1rem;
-        font-size: 11px;
+        font-size: 10px;
     }
     
   .innertext{
