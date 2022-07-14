@@ -50,9 +50,9 @@ a{
     text-decoration: none;
 }
 
-.active{
+/* .active{
     color: #FF4B2E !important;
-}
+} */
 
 /* this was used to make the navlink list to take a different when you hover or move around it */
 .navlinks a:hover{
@@ -139,6 +139,13 @@ input[type="text"], input[type="email"], input[type="number"], select{
     color: #fff;
 }
 
+.hamburger{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
 @media screen and (max-width:992px) {
     .Gym{
         width: 60%;
@@ -151,6 +158,7 @@ input[type="text"], input[type="email"], input[type="number"], select{
 }
 
 @media screen and (max-width:768px) {
+
     input[type="text"], input[type="email"], input[type="number"], select{
         width: 360px;
     }
@@ -187,9 +195,40 @@ input[type="text"], input[type="email"], input[type="number"], select{
     .ri-phone-fill{
         font-size: 18px;
     }
+
+    .hamburger{
+        display: block;
+        font-size: 25px;
+    }
+
+    .ri-close-circle-fill{
+        display: none;
+    }
+    
+    .navlinks{
+        background-color: #c51a00;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        left: -50%;
+        right: -50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        z-index: 1;
+        padding: 2rem;
+        transition: .5s;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width:375px) {
+
+    #navbar {
+        width: 100%;
+        padding: 10px 1rem;
+        font-size: 11px;
+    }
+    
    .Gym{
         width: 80%;
         padding: 25px 1.3rem;

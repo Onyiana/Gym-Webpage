@@ -314,6 +314,29 @@ textarea:focus{
     color: #fff;
 }
 
+.hamburger{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #c51a00;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 4px;
+}
+
 @media screen and (max-width:992px) {
     .contactSection{
         width: 85%;
@@ -387,9 +410,40 @@ textarea:focus{
     .bottomNavbar a{
        font-size: 13px;
     }
+    /* This is used to style the navigation bar */
+    .hamburger{
+        display: block;
+        font-size: 25px;
+    }
+
+    .ri-close-circle-fill{
+        display: none;
+    }
+
+    .navlinks{
+        background-color: #c51a00;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: -50%;
+        right: -50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        z-index: 1;
+        padding: 2rem;
+        transition: .5s;
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width:375px){
+
+    #navbar {
+        width: 100%;
+        padding: 10px 1rem;
+        font-size: 11px;
+    }
+    
   .innertext{
     width: 100%;
   }
